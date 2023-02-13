@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 
-import { KfButton, MyComponent} from 'primitive-comp-react';
+import { KfButton, MyComponent, KfIcon } from "primitive-comp-react";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -21,7 +21,14 @@ function App() {
           Learn React
         </a>
         <KfButton>Test</KfButton>
-        <MyComponent/>
+        <MyComponent />
+        <div>
+          <br />
+          <KfIcon icon="Warning" size="20" type="1.25px" />
+          <KfIcon icon="Warning" size="28" type="2px" />
+          <br />
+          <KfIcon icon="Watch" />
+        </div>
       </header>
     </div>
   );

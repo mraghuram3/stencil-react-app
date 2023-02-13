@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  --coral-elevation-shadow-neutral-s: 0rem 0.1rem 0.2rem 0rem hsla(0, 0%, 0%, 0.5);
+  box-shadow: var(--coral-elevation-shadow-neutral-s, 0rem 0.1rem 0.2rem 0rem hsla(0deg, 0%, 0%, 0.5));
+}
+
+.panel {
+  cursor: pointer;
+  padding: 16px;
+  border-bottom: 1px solid rgba(234, 219, 219, 0.725);
+}
+
+.content {
+  padding: 16px;
+}
